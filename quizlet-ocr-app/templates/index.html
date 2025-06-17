@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizlet単語帳メーカー</title>
+</head>
+<body>
+    <h1>画像からQuizlet単語帳を作成</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <button type="submit">変換してCSVをダウンロード</button>
+    </form>
+</body>
+</html>
